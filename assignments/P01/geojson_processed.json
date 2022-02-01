@@ -1,0 +1,1556 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Portland",
+                "marker-color": "96ff96",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6764816,
+                    45.5230622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.6764816,
+                        45.5230622
+                    ],
+                    [
+                        -122.3320708,
+                        47.6062095
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seattle",
+                "marker-color": "93ff93",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3320708,
+                    47.6062095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.3320708,
+                        47.6062095
+                    ],
+                    [
+                        -118.2436849,
+                        34.0522342
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Los Angeles",
+                "marker-color": "90ff90",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2436849,
+                    34.0522342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.2436849,
+                        34.0522342
+                    ],
+                    [
+                        -116.2146068,
+                        43.6187102
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Boise City",
+                "marker-color": "8dff8d",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.2146068,
+                    43.6187102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.2146068,
+                        43.6187102
+                    ],
+                    [
+                        -115.1398296,
+                        36.1699412
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Las Vegas",
+                "marker-color": "8aff8a",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.1398296,
+                    36.1699412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -115.1398296,
+                        36.1699412
+                    ],
+                    [
+                        -112.0740373,
+                        33.4483771
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Phoenix",
+                "marker-color": "87ff87",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0740373,
+                    33.4483771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.0740373,
+                        33.4483771
+                    ],
+                    [
+                        -111.8910474,
+                        40.7607793
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Salt Lake City",
+                "marker-color": "84ff84",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8910474,
+                    40.7607793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -111.8910474,
+                        40.7607793
+                    ],
+                    [
+                        -108.5006904,
+                        45.7832856
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Billings",
+                "marker-color": "81ff81",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.5006904,
+                    45.7832856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -108.5006904,
+                        45.7832856
+                    ],
+                    [
+                        -106.6055534,
+                        35.0853336
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Albuquerque",
+                "marker-color": "7eff7e",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.6055534,
+                    35.0853336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -106.6055534,
+                        35.0853336
+                    ],
+                    [
+                        -104.990251,
+                        39.7392358
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Denver",
+                "marker-color": "7bff7b",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.990251,
+                    39.7392358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.990251,
+                        39.7392358
+                    ],
+                    [
+                        -104.8202462,
+                        41.1399814
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cheyenne",
+                "marker-color": "78ff78",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202462,
+                    41.1399814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.8202462,
+                        41.1399814
+                    ],
+                    [
+                        -97.5164276,
+                        35.4675602
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Oklahoma City",
+                "marker-color": "75ff75",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.5164276,
+                    35.4675602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.5164276,
+                        35.4675602
+                    ],
+                    [
+                        -97.336111,
+                        37.688889
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wichita",
+                "marker-color": "72ff72",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.336111,
+                    37.688889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.336111,
+                        37.688889
+                    ],
+                    [
+                        -96.7898034,
+                        46.8771863
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fargo",
+                "marker-color": "6fff6f",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.7898034,
+                    46.8771863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -96.7898034,
+                        46.8771863
+                    ],
+                    [
+                        -96.73110340000001,
+                        43.5445959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sioux Falls",
+                "marker-color": "6cff6c",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.73110340000001,
+                    43.5445959
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -96.73110340000001,
+                        43.5445959
+                    ],
+                    [
+                        -95.99798829999999,
+                        41.2523634
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Omaha",
+                "marker-color": "69ff69",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.99798829999999,
+                    41.2523634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.99798829999999,
+                        41.2523634
+                    ],
+                    [
+                        -95.3698028,
+                        29.7604267
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Houston",
+                "marker-color": "66ff66",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.3698028,
+                    29.7604267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.3698028,
+                        29.7604267
+                    ],
+                    [
+                        -94.5785667,
+                        39.0997265
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kansas City",
+                "marker-color": "63ff63",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.5785667,
+                    39.0997265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -94.5785667,
+                        39.0997265
+                    ],
+                    [
+                        -93.6091064,
+                        41.6005448
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Des Moines",
+                "marker-color": "60ff60",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.6091064,
+                    41.6005448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -93.6091064,
+                        41.6005448
+                    ],
+                    [
+                        -93.2650108,
+                        44.977753
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Minneapolis",
+                "marker-color": "5dff5d",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.2650108,
+                    44.977753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -93.2650108,
+                        44.977753
+                    ],
+                    [
+                        -92.28959479999999,
+                        34.7464809
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Little Rock",
+                "marker-color": "5aff5a",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.28959479999999,
+                    34.7464809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -92.28959479999999,
+                        34.7464809
+                    ],
+                    [
+                        -90.1848103,
+                        32.2987573
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jackson",
+                "marker-color": "57ff57",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.1848103,
+                    32.2987573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.1848103,
+                        32.2987573
+                    ],
+                    [
+                        -90.0715323,
+                        29.95106579999999
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Orleans",
+                "marker-color": "54ff54",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.0715323,
+                    29.95106579999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.0715323,
+                        29.95106579999999
+                    ],
+                    [
+                        -90.0489801,
+                        35.1495343
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Memphis",
+                "marker-color": "51ff51",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.0489801,
+                    35.1495343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.0489801,
+                        35.1495343
+                    ],
+                    [
+                        -87.9064736,
+                        43.0389025
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Milwaukee",
+                "marker-color": "4eff4e",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9064736,
+                    43.0389025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -87.9064736,
+                        43.0389025
+                    ],
+                    [
+                        -87.6297982,
+                        41.8781136
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chicago",
+                "marker-color": "4bff4b",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6297982,
+                    41.8781136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -87.6297982,
+                        41.8781136
+                    ],
+                    [
+                        -86.80248999999999,
+                        33.5206608
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Birmingham",
+                "marker-color": "48ff48",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.80248999999999,
+                    33.5206608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.80248999999999,
+                        33.5206608
+                    ],
+                    [
+                        -86.158068,
+                        39.768403
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Indianapolis",
+                "marker-color": "45ff45",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.158068,
+                    39.768403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.158068,
+                        39.768403
+                    ],
+                    [
+                        -85.7584557,
+                        38.2526647
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Louisville/Jefferson County",
+                "marker-color": "42ff42",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.7584557,
+                    38.2526647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.7584557,
+                        38.2526647
+                    ],
+                    [
+                        -84.3879824,
+                        33.7489954
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Atlanta",
+                "marker-color": "3fff3f",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.3879824,
+                    33.7489954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.3879824,
+                        33.7489954
+                    ],
+                    [
+                        -83.0457538,
+                        42.331427
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Detroit",
+                "marker-color": "3cff3c",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.0457538,
+                    42.331427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -83.0457538,
+                        42.331427
+                    ],
+                    [
+                        -82.99879419999999,
+                        39.9611755
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Columbus",
+                "marker-color": "39ff39",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.99879419999999,
+                    39.9611755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.99879419999999,
+                        39.9611755
+                    ],
+                    [
+                        -81.65565099999999,
+                        30.3321838
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jacksonville",
+                "marker-color": "36ff36",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.65565099999999,
+                    30.3321838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.65565099999999,
+                        30.3321838
+                    ],
+                    [
+                        -81.6326234,
+                        38.3498195
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Charleston",
+                "marker-color": "33ff33",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6326234,
+                    38.3498195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.6326234,
+                        38.3498195
+                    ],
+                    [
+                        -81.0348144,
+                        34.0007104
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Columbia",
+                "marker-color": "30ff30",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.0348144,
+                    34.0007104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.0348144,
+                        34.0007104
+                    ],
+                    [
+                        -80.8431267,
+                        35.2270869
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Charlotte",
+                "marker-color": "2dff2d",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.8431267,
+                    35.2270869
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.8431267,
+                        35.2270869
+                    ],
+                    [
+                        -77.0368707,
+                        38.9071923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Washington",
+                "marker-color": "2aff2a",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.0368707,
+                    38.9071923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.0368707,
+                        38.9071923
+                    ],
+                    [
+                        -76.6121893,
+                        39.2903848
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Baltimore",
+                "marker-color": "27ff27",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.6121893,
+                    39.2903848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.6121893,
+                        39.2903848
+                    ],
+                    [
+                        -75.97798499999999,
+                        36.8529263
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Virginia Beach",
+                "marker-color": "24ff24",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.97798499999999,
+                    36.8529263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.97798499999999,
+                        36.8529263
+                    ],
+                    [
+                        -75.5397878,
+                        39.7390721
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wilmington",
+                "marker-color": "21ff21",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.5397878,
+                    39.7390721
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.5397878,
+                        39.7390721
+                    ],
+                    [
+                        -75.1652215,
+                        39.9525839
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Philadelphia",
+                "marker-color": "1eff1e",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1652215,
+                    39.9525839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.1652215,
+                        39.9525839
+                    ],
+                    [
+                        -74.1723667,
+                        40.735657
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Newark",
+                "marker-color": "1bff1b",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.1723667,
+                    40.735657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -74.1723667,
+                        40.735657
+                    ],
+                    [
+                        -74.0059413,
+                        40.7127837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New York",
+                "marker-color": "18ff18",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.0059413,
+                    40.7127837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -74.0059413,
+                        40.7127837
+                    ],
+                    [
+                        -73.21207199999999,
+                        44.4758825
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Burlington",
+                "marker-color": "15ff15",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.21207199999999,
+                    44.4758825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21207199999999,
+                        44.4758825
+                    ],
+                    [
+                        -73.19517669999999,
+                        41.1865478
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bridgeport",
+                "marker-color": "12ff12",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.19517669999999,
+                    41.1865478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.19517669999999,
+                        41.1865478
+                    ],
+                    [
+                        -71.4547891,
+                        42.9956397
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Manchester",
+                "marker-color": "0fff0f",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.4547891,
+                    42.9956397
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.4547891,
+                        42.9956397
+                    ],
+                    [
+                        -71.4128343,
+                        41.8239891
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Providence",
+                "marker-color": "0cff0c",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.4128343,
+                    41.8239891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.4128343,
+                        41.8239891
+                    ],
+                    [
+                        -71.0588801,
+                        42.3600825
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Boston",
+                "marker-color": "09ff09",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0588801,
+                    42.3600825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.0588801,
+                        42.3600825
+                    ],
+                    [
+                        -70.2553259,
+                        43.66147100000001
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Portland",
+                "marker-color": "06ff06",
+                "marker-size": "small"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.2553259,
+                    43.66147100000001
+                ]
+            }
+        }
+    ]
+}

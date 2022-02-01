@@ -4,8 +4,11 @@ from pprint import pprint as print
 import random
 
 
-def getLat(city):
-    return city["latitude"]
+def getLon(city):
+    return city["longitude"]
+
+def rgb_to_hex(rgb):
+    return '%02x%02x%02x' % rgb
 
 
 # Read in our json from file
@@ -22,35 +25,59 @@ for item in data:
     else:
         MPStates[state] = item
 
+# we want to exclude Hawaii and Alaska
+MPStates.pop("Hawaii")
+MPStates.pop("Alaska")
+print(len(MPStates))
+
 # Let's then order them by lat in a new list
 
 statesList = []
 for item in MPStates.keys():
     statesList.append(MPStates[item])
 
-statesList.sort(key=getLat)
+statesList.sort(key=getLon)
 
-resultingGeoJson = []
+resultingGeoJson = {
+    "type": "FeatureCollection",
+    "features": []
+}
 for x in range(len(statesList)):
-    print(x)
     newFeature = {
         "type": "Feature",
+        "properties": {
+            "name": statesList[x]["city"],
+            "marker-color": rgb_to_hex((150 - (3*x), 255, 150 - (3*x))),
+            "marker-size": "small",
+        },
         "geometry": {
             "type": "Point",
-            "coordinates": [statesList[x]["longitude"], statesList[x]["latitude"]]
-        },
-        "properties": {
-            "name": statesList[x]["city"]
-        }
-    }
-    resultingGeoJson.append(newFeature)
-    if x < len(statesList)-1:
-        newLine = {
-            "type": "LineString",
             "coordinates": [
-                [statesList[x]["longitude"], statesList[x]["latitude"]], [statesList[x+1]["longitude"], statesList[x+1]["latitude"]]
+                statesList[x]["longitude"],
+                statesList[x]["latitude"]
             ]
         }
-        resultingGeoJson.append(newLine)
+    }
+    resultingGeoJson["features"].append(newFeature)
+    if x < len(statesList)-1:
+        newLine = {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        statesList[x]["longitude"],
+                        statesList[x]["latitude"]
+                    ],
+                    [
+                        statesList[x+1]["longitude"],
+                        statesList[x+1]["latitude"]
+                    ]
+                ]
+            }
+        }
+        resultingGeoJson["features"].append(newLine)
 
-print(resultingGeoJson)
+with open("./geojson_processed.json", "w") as file:
+    json.dump(resultingGeoJson, file, indent=4)
