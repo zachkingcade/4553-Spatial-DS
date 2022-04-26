@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="GameWindow">
+        <div id="gameDiv">
+            <div id="mapDiv">
+                <svg height="500" width="500" id="Map"></svg>
+            </div>
+            <div id="guessesDiv">
+                <p id="guessList">
+                    Guesses: <br>
+
+                </p>
+                <input name="GuessInput" type="text" id="guessBox" list="countriesNames">
+                <datalist id="countriesNames"></datalist>
+                <button onclick="getGuess()">Guess</button>
+            </div>
+        </div>
+        <script src="./Countries.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

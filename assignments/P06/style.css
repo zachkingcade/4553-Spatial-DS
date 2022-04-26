@@ -1,0 +1,24 @@
+#gameDiv{
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 5px;
+    display: flex;
+}
+
+#mapDiv{
+    float: left;
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+    border-style: dashed; 
+    border-width: 5px;
+}
+
+#guessesDiv{
+    float: right;
+    position: relative;
+    height: 500px;
+    width: 200px;
+    border-style: dashed; 
+    border-width: 5px;
+}
