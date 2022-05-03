@@ -116,6 +116,7 @@ class QuadTree {
             currentNode.branches = newBranches;
             currentNode.leaf = false;
         }
+        console.log(this.root);
     }
 
     /**
