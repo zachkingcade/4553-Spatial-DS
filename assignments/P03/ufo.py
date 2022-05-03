@@ -3,8 +3,8 @@ import geopandas
 from shapely.geometry import box, Polygon, LineString, Point
 from shapely.ops import unary_union
 import csv
-import json
 import geoplot
+import json
 from geovoronoi import voronoi_regions_from_coords, points_to_coords
 from geovoronoi.plotting import subplot_for_map, plot_voronoi_polys_with_points_in_area
 
@@ -68,10 +68,20 @@ voroniSeries.to_file("voroni.geojson")
 
 voroniSeries = voroniSeries.geometry.append(citySeries.geometry)
 # [Requirement] Save your results to a json file to be used later (maybe).
-voroniSeries.to_file("voroni_with_points.geojson")
+voroniSeries.to_file("voroni_with_cities.geojson")
+
+voroniSeries = voroniSeries.geometry.append(ufoSeries.geometry)
+# [Requirement] Save your results to a json file to be used later (maybe).
+voroniSeries.to_file("voroni_with_cities_and_ufos.geojson")
 
 # [Requirement] Query the rtree getting the UFO sighting points that are contained within each polygon
-result = []
+containsFile = open("Voroni_contains.json", "w")
+resultString = "[\n"
 for i in region_polys:
-        points_within = geopandas.sjoin(ufoSeries, region_polys[i], op='within')
-        print(points_within)
+        citiesWithin = ufoSeries.contains(region_polys[i])
+        print(citiesWithin)
+        resultString += citiesWithin.to_json() + ',\n'
+resultString += "\n]"
+containsFile.write(resultString)
+containsFile.close()
+print("Finished")

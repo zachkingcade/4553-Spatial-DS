@@ -165,7 +165,6 @@ function main() {
     this.targetCountry = this.countriesNames[Math.floor(Math.random() * this.countriesNames.length)];
     console.log(this.targetCountry)
     this.guessNum = 0;
-    this.drawCountry(this.countriesGeoData[this.targetCountry]);
 }
 
 
